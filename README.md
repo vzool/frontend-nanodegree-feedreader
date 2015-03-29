@@ -56,6 +56,18 @@ First of all, I took my supervisor plan as a start point and my steps goes as th
 13. Write comments to describe what I did in the tests code.
 14. Complete this README.md
 
+## Requirements
+
+To run this Web Application you will need to open index.html in a browser. The Browser should be in specific versions that fully supports the JavaScript language,
+
+which those browsers and versions are:
+
+- Chrome: 4.0+
+- IE(Internet Explorer): 9.0+
+- Firefox: 2.0+
+- Safari: 3.1+
+- Opera: 9.0+
+
 ## Licence
 
 It's Completely Free. But, Do whatever you like to do on your own full responsibility;

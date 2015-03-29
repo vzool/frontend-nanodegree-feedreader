@@ -1,3 +1,4 @@
+
 /* feedreader.js
  *
  * This is the spec file that Jasmine will read and contains
@@ -10,6 +11,8 @@
  */
  
 $(function() {
+    // enable the strict mode. This helps to write more "secure" codes
+    'use strict;'
 
     /* This is our first test suite - a test suite just contains
     * a related set of tests. This suite is all about the RSS
@@ -111,7 +114,7 @@ $(function() {
             $(".icon-list").click();
 
             // wait 50ms to click event take effect
-            etTimeout(function(){
+            setTimeout(function(){
                 // default value when menu is shown
                 expect($(".menu").css('transform')).toBe('matrix(1, 0, 0, 1, 0, 0)');
             }, 50);
