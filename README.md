@@ -40,6 +40,7 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 # How really I did it?
 
 First of all, I took my supervisor plan as a start point and my steps goes as the following:
+
 1. Looking at application behavior.
 2. Browse HTML code page.
 3. Browse CSS Style sheet.
